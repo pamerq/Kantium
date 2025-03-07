@@ -63,3 +63,19 @@ AI-Projects/
    python Mini_Projects/chatbot.py
    ```
 
+## 📌 Flujo de trabajo con Git  
+
+Este repositorio sigue la siguiente estructura de ramas:  
+
+- **`main`** → Versión estable y lista para producción  
+- **`dev`** → Rama de desarrollo, donde se integran nuevas funcionalidades  
+- **`feature/nombre-de-la-funcionalidad`** → Ramas individuales para cada nueva funcionalidad  
+
+### 🚀 Cómo trabajar en el repositorio  
+
+1. Crea una nueva rama a partir de `dev`:  
+   ```bash
+   git checkout dev
+   git pull origin dev
+   git checkout -b feature/nueva-funcionalidad
+
